@@ -4,8 +4,8 @@ define('ROOT_DIR', __DIR__);
 require_once "app/Config.php";
 require_once "system/Database.php";
 require_once "system/System.php";
-require_once "system/Helper.php";
-require_once "app/Helper.php";
+require_once "system/Helpers.php";
+require_once "app/Helpers.php";
 require_once "app/Routes.php";
 
 if (uri_segment(1)) {
